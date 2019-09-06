@@ -6,14 +6,37 @@
 body {
   background-color: #f7f4f2;
   color: black;
+  background-image: url("img/headerimg.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .header {
-  padding: 120px 20px;
+  padding: 80px 20px 340px 20px;
   text-align: center;
   color: white;
-  background: url(img/headerimg.gif);
-  background-size: cover;
-  background-repeat: no-repeat;
+
+}
+.headertitle {
+  padding: 15px;
+}
+.headbuttonbody {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.headbutton {
+  float: left;
+  padding: 20px;
+}
+
+.headbutton {
+  width: 33,33%;
+}
+.headbutton img {
+  heigth: 140px;
+  width: 160px;
 }
 .nav {
   margin: 0px;
@@ -66,11 +89,11 @@ body {
 }
 
 .column.side {
-  width: 20%;
+  width: 25%;
 }
 
 .column.middle {
-  width: 55%;
+  width: 70%;
 }
 
 .row:after {
@@ -86,7 +109,7 @@ body {
 }
 
 .footer {
-  background-color: black;
+  background-color: #323232;
   padding: 10px;
   text-align: center;
 }

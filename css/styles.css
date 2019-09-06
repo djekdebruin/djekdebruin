@@ -4,54 +4,91 @@
   margin: 0px;
 }
 body {
-  background-color: white;
+  background-color: #f7f4f2;
   color: black;
-  margin: 0;
 }
-.content {
+.header {
+  padding: 120px 20px;
+  text-align: center;
+  color: white;
+  background: url(img/headerimg.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nav {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #323232;
+}
+.buttonr, .dropdownr {
+  float: right;
+}
+.buttonl {
+  float: left;
+}
+.buttonr, .dropdownb, .buttonl {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+}
+.dropdownr {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #323232;
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdownr:hover .dropdown-content {
+  display: block;
+}
+.dropdownr:hover, .buttonr:hover, .buttonl:hover, .dropdown-content:hover a {
+  background-color: black;
+}
+.column {
   float: left;
   padding: 30px;
-  margin: 0px 10px;
+  margin: 20px 10px;
+  background-color: white;
+  box-shadow: 3px 3px #cbccce;
 }
-.content.s {
-width: 20%;
-background-color: #cccccc;
-border-radius: 6px;
+
+.column.side {
+  width: 20%;
 }
-.content.m {
+
+.column.middle {
   width: 55%;
-  background-color: #cccccc;
 }
+
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+
 @media screen and (max-width: 600px) {
-  .content.s, .content.m {
+  .column.side, .column.middle {
     width: 100%;
   }
 }
-.header {
-  padding: 40px 20px;
-  text-align: left;
-  color: black;
-  background-color: #cccccc;
-}
-.nav {
-  overflow: hidden;
-  background-color: #323232;
-}
-.nav a {
-  padding: 15px;
-  text-align: center;
-  float: left;
-  display: block;
-  text-decoration: none;
-  color: white;
-}
-.nav a:hover {
+
+.footer {
   background-color: black;
+  padding: 10px;
+  text-align: center;
 }
 table {
     border-collapse: collapse;
@@ -65,4 +102,12 @@ th {
 }
 td {
   background-color: #4c4c4c;
+}
+.wtitle {
+  font-family: 'Rokkitt', serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+.stitle {
+  font-style: italic;
 }

@@ -11,7 +11,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -20,10 +19,11 @@ body {
 .col-6 {width: 50%;}
 .col-7 {width: 58.33%;}
 .col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-9 {width: 70%;}
+.col-10 {width: 75%;}
+.col-11 {width: 83.33%;}
+.col-12 {width: 91.66%;}
+.col-13 {width: 100%;}
 
 .header {
   padding: 80px 20px 340px 20px;
@@ -103,14 +103,6 @@ body {
   box-shadow: 3px 3px #cbccce;
 }
 
-.column.side {
-  width: 25%;
-}
-
-.column.middle {
-  width: 70%;
-}
-
 .row:after {
   content: "";
   display: table;
@@ -125,8 +117,24 @@ body {
 
 .footer {
   background-color: #323232;
+  color: white;
   padding: 10px;
   text-align: center;
+}
+.footercolumn {
+  float: left;
+  border-right: 2px solid black;
+  text-align: left;
+  padding: 10px;
+}
+.copyright {
+  color:grey;
+}
+.footer h1 {
+  font-size: 25px;
+}
+.contactbuttons {
+  padding: 0px 10px 0px 20px;
 }
 table {
     border-collapse: collapse;
@@ -160,7 +168,7 @@ td {
 .projectcolumn > .projectcolumnd {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  padding: 20px 0;
+  padding: 20px;
   font-size: 30px;
 }
 @media screen and (max-width: 600px) {

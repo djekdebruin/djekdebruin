@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Rokkitt&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
@@ -12,23 +14,16 @@
     <title>Mijn site</title>
 
     <script>
-      $(document).ready(function(){
+      $(function(){
         $("#footer").load("footer.html");
+        $('#header').load('header.html');
       });
     </script>
 
   </head>
   <body>
 
-    <div class="nav">
-      <a href="index.html" class="buttonl">Home</a>
-      <a href="" class="buttonr">Hobbies</a>
-      <div class="dropdownr">
-        <a class="dropdownb">test</a>
-        <div class="dropdown-content">
-          <a href="">test</a>
-        </div>
-      </div>
+    <div id="header">
     </div>
 
     <div class="header">

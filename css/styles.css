@@ -154,18 +154,15 @@ td {
   font-style: italic;
 }
 .projectcolumn {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto auto;
-  grid-gap: 30px;
-  padding: 30px;
-  box-shadow: 3px 3px #cbccce;
+  display: block;
 }
-.projectcolumn > .projectcolumnd {
+.projectcontent {
   background-color: rgba(255, 255, 255, 0.8);
+}
+.projectcolumnd {
   text-align: center;
   font-size: 30px;
-
+	float: left;
 }
 @media screen and (max-width: 600px) {
   .projectcolumn {

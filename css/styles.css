@@ -19,11 +19,10 @@ body {
 .col-6 {width: 50%;}
 .col-7 {width: 58.33%;}
 .col-8 {width: 66.66%;}
-.col-9 {width: 70%;}
-.col-10 {width: 75%;}
-.col-11 {width: 83.33%;}
-.col-12 {width: 91.66%;}
-.col-13 {width: 100%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
 .header {
   padding: 80px 20px 340px 20px;
@@ -34,22 +33,16 @@ body {
 .headertitle {
   padding: 15px;
 }
-.headbuttonbody {
+.headbuttoncontent {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 .headbutton {
   float: left;
   padding: 20px;
 }
-
-.headbutton {
-  width: 33,33%;
-}
-.headbutton img {
-  heigth: 140px;
+.headbuttonimg {
   width: 160px;
 }
 .nav {
@@ -95,8 +88,10 @@ body {
   background-color: black;
 }
 [class*="col-"] {
-  float: left;
   padding: 15px;
+}
+.left {
+  float: left;
 }
 .boxcontent {
   overflow-wrap: break-word;

@@ -1,0 +1,21 @@
+.footer {
+  background-color: #323232;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.footercolumn {
+  float: left;
+  border-right: 2px solid #cbccce;
+  text-align: left;
+  padding: 10px;
+}
+.copyright {
+  color:grey;
+}
+.footer h1 {
+  font-size: 25px;
+}
+.contactbuttons {
+  padding: 0px 10px 0px 20px;
+}

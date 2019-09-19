@@ -113,12 +113,11 @@ body {
 }
 .footercolumn {
   float: left;
-  border-right: 2px solid white;
+  border-right: 2px solid #cbccce;
   text-align: left;
   padding: 10px;
 }
 .copyright {
-  border-top: 1px solid white;
   color:grey;
 }
 .footer h1 {
@@ -139,7 +138,8 @@ body {
   display: block;
 }
 .projectcontent {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: white;
+  box-shadow: 3px 3px #cbccce;
 }
 .projectcolumnd {
   text-align: center;
@@ -148,6 +148,7 @@ body {
 }
 .projectcolumnd img {
   width: 100%;
+  border-bottom: 3px solid #cbccce;
 }
 
 @media screen and (max-width: 600px) {

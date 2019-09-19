@@ -19,3 +19,16 @@
 .contactbuttons {
   padding: 0px 10px 0px 20px;
 }
+.googlemaps {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.googlemaps iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}

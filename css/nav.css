@@ -52,3 +52,8 @@
 .dropdownr:hover, .buttonr:hover, .buttonl:hover, .dropdown-content:hover a {
   background-color: black;
 }
+.navbar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

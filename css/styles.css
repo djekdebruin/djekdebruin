@@ -138,17 +138,25 @@ body {
   display: block;
 }
 .projectcontent {
-  background-color: white;
   box-shadow: 3px 3px #cbccce;
 }
 .projectcolumnd {
   text-align: center;
-  font-size: 30px;
 	float: left;
+  overflow-wrap: break-word;
 }
 .projectcolumnd img {
+  display: block;
   width: 100%;
-  border-bottom: 3px solid #cbccce;
+}
+.projecttitle {
+  background-color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+.projecttekst {
+  background-color: #f2f2f2;
+  padding: 10px;
 }
 
 @media screen and (max-width: 600px) {
@@ -162,7 +170,7 @@ body {
   }
 }
 @media only screen and (max-width: 1300px) {
-   [class*="col-6"]{
+   .col-6 {
      width: 75%;
   }
 }

@@ -61,8 +61,9 @@ body {
   display: inline-block;
   text-align: center;
   color: white;
-  padding: 15px;
+  padding: 18px;
   text-decoration: none;
+  border-right: 2px solid #cbccce;
 }
 .dropdownr {
   display: inline-block;

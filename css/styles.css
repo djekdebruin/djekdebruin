@@ -8,6 +8,7 @@
   text-align: center;
 	float: left;
   overflow-wrap: break-word;
+  padding: 30px;
 }
 .projectcolumnd img {
   display: block;

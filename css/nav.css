@@ -5,9 +5,9 @@
   background-color: white;
 }
 .navlogo {
-  height: 50px;
-  width: 180px;
-  margin: 15px;
+  height: 40px;
+  width: 150px;
+  margin: 12px;
 }
 .nav {
   margin: 0px;
@@ -56,4 +56,18 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.navicon {
+  color: white;
+  background-color: #323232;
+  font-size: 18px;
+  margin: 12px;
+}
+.navicondiv {
+  display: inline-block;
+  background-color: #323232;
+  border-radius: 200px;
+}
+.naviconbody {
+  padding: 10px;
 }

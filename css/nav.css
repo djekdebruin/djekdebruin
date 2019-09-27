@@ -57,17 +57,39 @@
   margin-left: auto;
   margin-right: auto;
 }
-.navicon {
-  color: white;
-  background-color: #323232;
-  font-size: 18px;
-  margin: 12px;
+.topnavbar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.navicondiv {
-  display: inline-block;
-  background-color: #323232;
-  border-radius: 200px;
+.topnavbody-r {
+  float: right;
+  padding: 10px 0px;
 }
-.naviconbody {
-  padding: 10px;
+.topnavbody-l {
+  float: left;
+}
+.fatopnav {
+  color: #323232;
+}
+.fatopnav:hover {
+  color: black;
+}
+@media only screen and (max-width: 768px) {
+   .navbar {
+     width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+   .topnavbody-r, .topnavbody-l {
+     width: 100%;
+     text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+   .navlogo {
+     width: 100%;
+     height: 100px;
+     padding: 15px;
+  }
 }

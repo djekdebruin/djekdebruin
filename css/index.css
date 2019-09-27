@@ -29,7 +29,7 @@ body {
 /* index header css */
 
 .header {
-  padding: 80px 20px 180px 20px;
+  padding: 40px 20px 140px 20px;
   text-align: center;
   color: white;
 
@@ -45,11 +45,38 @@ body {
 .headbutton {
   float: left;
   padding: 20px;
+  margin: 0px;
 }
-.headbuttonimg {
-  width: 160px;
+.faheadbutton {
+  color: #323232;
+  font-size: 150px;
 }
-
+.iheadbutton {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+.iheadbutton:hover .faheadbutton {
+  color: black;
+}
+.iheadbutton:hover .headbuttonfa {
+  color: #323232;
+  background-color: #a31208;
+}
+.headbuttontext {
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 6px;
+}
+.headbuttonfa {
+  background-color: #db564d;
+  color: white;
+  font-size: 18px;
+  padding: 14px 35px;
+  margin: 12px 10px;
+}
 /* index box content css */
 
 .left {
@@ -58,27 +85,43 @@ body {
 .right {
   float: right;
 }
+.contentindex {
+  font-size: 0px;
+}
 .index1 {
+  display: inline-block;
   padding: 20px;
   overflow-wrap: break-word;
   background-color: #e6e6e6;
 }
 .index2 {
+  display: inline-block;
   padding: 20px;
   overflow-wrap: break-word;
   background-color: white;
 }
 .index3 {
+  display: inline-block;
+  padding: 60px;
   overflow-wrap: break-word;
   background-color: #e6e6e6;
-  padding: 60px;
 }
 .indexcontent1 {
+  font-size: 16px;
   text-align: center;
   padding: 20px;
 }
 .indexcontent2 {
-
+  font-size: 16px;
+  float: left;
+}
+.indexcontentmain {
+  font-size: 16px;
+  float: left;
+}
+.indexcontentimg {
+  font-size: 16px;
+  float: left;
 }
 .boxcontent {
   overflow-wrap: break-word;

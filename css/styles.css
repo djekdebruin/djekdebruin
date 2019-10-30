@@ -23,3 +23,8 @@
   background-color: #f2f2f2;
   padding: 10px;
 }
+.projectcolumnd a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}

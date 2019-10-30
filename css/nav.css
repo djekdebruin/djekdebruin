@@ -1,14 +1,5 @@
-.topnav {
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-  background-color: white;
-}
-.navlogo {
-  height: 40px;
-  width: 150px;
-  margin: 12px;
-}
+/* Navigationbar */
+
 .nav {
   margin: 0px;
   padding: 0px;
@@ -57,6 +48,20 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Topnav / Topheader */
+
+.topnav {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: white;
+}
+.navlogo {
+  height: 40px;
+  width: 150px;
+  margin: 12px;
+}
 .topnavbar {
   display: block;
   margin-left: auto;
@@ -75,21 +80,48 @@
 .fatopnav:hover {
   color: black;
 }
-@media only screen and (max-width: 768px) {
-   .navbar {
-     width: 100%;
+
+/* Responsive Navigation and topheader */
+@media only screen and (max-width: 768px){
+.topnavbody-r, .topnavbody-l {
+    width: 100%;
+    text-align: center;
+}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .navlogo {
+    width: 100%;
+    height: 200px;
+ }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .navlogo {
+    width: 100%;
+    height: 200px;
+ }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .navlogo {
+    width: 160px;
+    height: 40px;
   }
 }
-@media only screen and (max-width: 768px) {
-   .topnavbody-r, .topnavbody-l {
-     width: 100%;
-     text-align: center;
-  }
-}
-@media only screen and (max-width: 768px) {
-   .navlogo {
-     width: 100%;
-     height: 100px;
-     padding: 15px;
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .navlogo {
+    height: 40px;
+    width: 160px;
   }
 }

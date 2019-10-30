@@ -5,6 +5,7 @@
   padding: 0px;
   margin: 0px;
 }
+
 body {
   background-color: #f7f4f2;
   color: black;
@@ -60,7 +61,6 @@ body {
   color: black;
 }
 .iheadbutton:hover .headbuttonfa {
-  color: #323232;
   background-color: #a31208;
 }
 .headbuttontext {
@@ -87,6 +87,7 @@ body {
 }
 .contentindex {
   font-size: 0px;
+  display: block;
 }
 .index1 {
   display: inline-block;
@@ -114,6 +115,20 @@ body {
 .indexcontent2 {
   font-size: 16px;
   float: left;
+}
+.indexcontent2d {
+  padding: 40px;
+  text-align: center;
+}
+.indexcontent2 img {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border-radius: 50%;
+}
+.indexcontent2 h1 {
+ font-size: 2em;
+ margin: .67em 0;
 }
 .indexcontentmain {
   font-size: 16px;
@@ -148,8 +163,42 @@ body {
   display: block;
   width: 100%;
 }
+/* introduction css */
+.introcontent1d {
+  text-align: center;
+  padding: 40px;
+  font-size: 16px;
+}
+.introcontent1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+.intropf {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  padding: 20px;
+}
+.introcontentpf {
+  padding: 40px;
+  border-bottom: 2px solid grey;
+}
+.introcontent1social {
+  padding: 40px;
+}
+.introcontent1 p {
+  padding: 5px;
+}
 /* responsive web design css */
 
+@media screen and (max-width: 600px) {
+  .intropf {
+    width: 200px;
+    height: 200px;
+  }
+}
 @media screen and (max-width: 600px) {
   .projectcolumn {
     width: 100%;

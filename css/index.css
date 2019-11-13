@@ -25,6 +25,7 @@ body {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
 .header {
   padding: 40px 20px 140px 20px;
   text-align: center;
@@ -158,6 +159,10 @@ body {
   margin-right: auto;
 }
 .p1 {
+  display: inline-block;
+  text-align: center;
+}
+.p1s {
   display: inline-block;
   float: left;
 }
@@ -327,8 +332,6 @@ table#t01 tr:nth-child(even) {
   margin-right: auto;
 }
 
-/* Topnav / Topheader */
-
 .topnav {
   margin: 0px;
   padding: 0px;
@@ -358,74 +361,6 @@ table#t01 tr:nth-child(even) {
 .fatopnav:hover {
   color: black;
 }
-.footer {
-  background-color: #323232;
-  color: white;
-  padding: 40px;
-}
-.footercolumn {
-  float: left;
-  border-right: 2px solid #cbccce;
-  padding: 10px;
-}
-.copyright {
-  color:grey;
-}
-.footer h1 {
-  font-size: 25px;
-}
-.contactbuttons {
-  padding: 0px 10px 0px 20px;
-}
-.googlemaps {
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-}
-.googlemaps iframe {
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
-}
-.bottomfooter {
-  background-color: black;
-  padding: 20px;
-}
-.contactbuttons a {
-  text-decoration: none;
-  color: white;
-}
-.footercolumn h1 {
-  text-align: center;
-  padding: 10px;
-}
-.contactbuttons a:hover {
-  color: grey;
-}
-.contactbuttons a:hover .mail {
-  color: grey;
-}
-.contactbuttons ul {
-  text-decoration: none;
-  list-style: none;
-}
-.contactbuttons li {
-  padding: 1px;
-}
-.mail {
-  font-size: 16px;
-  margin: 4px;
-  color: white;
-}
-.mail:hover {
-  color: grey;
-}
-.footerlist {
-  margin: 20px;
-}
 
 @media only screen and (max-width: 768px){
 .topnavbody-r, .topnavbody-l {
@@ -433,11 +368,6 @@ table#t01 tr:nth-child(even) {
     text-align: center;
 }
 }
-
-@media only screen and (max-width: 600px) {
-
-}
-
 @media only screen and (min-width: 600px) {
   .navlogo {
     width: 100%;
@@ -495,4 +425,71 @@ table#t01 tr:nth-child(even) {
    .col-6 {
      width: 75%;
   }
+}
+.footer {
+  background-color: #323232;
+  color: white;
+  padding: 20px;
+}
+.footercolumn {
+  float: left;
+  border-right: 2px solid #cbccce;
+  padding: 20px;
+}
+.copyright {
+  color:grey;
+}
+.footer h1 {
+  font-size: 25px;
+}
+.contactbuttons {
+  padding: 0px 10px 0px 20px;
+}
+.googlemaps {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.googlemaps iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.bottomfooter {
+  background-color: black;
+  padding: 3px;
+}
+.contactbuttons a {
+  text-decoration: none;
+  color: white;
+}
+.footercolumn h1 {
+  text-align: center;
+}
+.contactbuttons a:hover {
+  color: grey;
+}
+.contactbuttons a:hover .mail {
+  color: grey;
+}
+.contactbuttons ul {
+  text-decoration: none;
+  list-style: none;
+}
+.contactbuttons li {
+  padding: 1px;
+}
+.mail {
+  font-size: 16px;
+  margin: 4px;
+  color: white;
+}
+.mail:hover {
+  color: grey;
+}
+.footerlist {
+  margin: 20px;
 }
